@@ -21,6 +21,26 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
+main {
+  max-width:  850px;
+}
+
+aside {
+  width: 100px;
+  margin: 10px 10px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: grey;
+  color: aqua;
+  text-align: center;
+  
+}
+
+aside img{
+  width: 200px;
+  height: auto;
+}
+
 p {
   padding: 10px;
 }
