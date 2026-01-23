@@ -27,7 +27,7 @@ h1 {
 }
 
 main img {
-  width: 200px;
+  width: 250px;
   height: auto;
   border: 1px solid black;
   padding: 2px;
@@ -41,14 +41,21 @@ main {
 }
 
 aside {
-  width: 20em;
   text-align: center;
-
+  position: relative;
 }
 
 aside img {
-  width: 200px;
+  width: 450px;
   height: auto;
+}
+
+aside h2 {
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  top: 25px;
+  left: 275px;
 }
 
 p {
@@ -64,9 +71,21 @@ footer {
 
 /* Class Selectors */
 .box {
-  margin: 1rem;
+  margin: 10px 10px;
+  width: 45rem;
   border: 1px solid rgba(0, 0, 0, 0.25);
-  padding: 1rem;
+  padding: 1.5em;
   background-color: var(--primary-color);
   color: var(--primary-text-color);
+}
+
+.indent {
+  padding: 35px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  padding: 5px;
 }
