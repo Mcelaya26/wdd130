@@ -48,6 +48,8 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    font-family: var(--body-font);
+    color: var(--body-text-color);
 }
 
 a {
@@ -76,6 +78,11 @@ article {
 
 .hero {
     position: relative;
+}
+
+.hero h1,
+article {
+    position: absolute;
 }
 
 .hero img {
