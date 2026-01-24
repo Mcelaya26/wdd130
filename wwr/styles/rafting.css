@@ -32,6 +32,10 @@ header {
     color: var(--accent2-color);
 }
 
+header ul a {
+    padding: 5px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
