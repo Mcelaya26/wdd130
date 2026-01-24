@@ -43,11 +43,13 @@ article {
     margin: 16px;
     padding: 8px;
     font-family: var(--body-font);
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
-.socialmedia a {
+.socialmedia a,
+img {
     text-decoration: none;
+    width: 55px;
 }
 
 .hero {
@@ -88,3 +90,5 @@ h1 {
     height: auto;
     padding: 2.5px;
 }
+
+footer {}
