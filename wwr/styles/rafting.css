@@ -1,6 +1,6 @@
 :root {
     --primary-color: #055a05;
-    --secondary-color: #f4a261;
+    --secondary-color: #ffdd92;
     --accent1-color: #264653;
     --accent2-color: #f3f739;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -42,13 +42,17 @@ article {
     margin: 16px;
     padding: 8px;
     font-family: var(--body-font);
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .socialmedia a,
 img {
     text-decoration: none;
     width: 55px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .hero {
@@ -86,11 +90,14 @@ footer p {
 .hero article {
     position: absolute;
     bottom: 5px;
-    color: var(--secondary-color);
     opacity: 0.8;
     background-color: var(--accent1-color);
     text-align: center;
+    color: var(--secondary-color);
+}
 
+.hero article p {
+    color: var(--secondary-color);
 }
 
 .hero article img {
