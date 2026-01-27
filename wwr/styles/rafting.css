@@ -20,7 +20,8 @@ header nav ul a {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color)
+    color: var(--accent1-color);
+    background-color: #1f1d1d;
 }
 
 header,
@@ -28,41 +29,12 @@ main,
 footer {
     width: 840px;
     margin: auto;
+    background-color: #fff;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
-}
-
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-    font-family: var(--body-font);
-    color: var(--primary-color);
-}
-
-.socialmedia a,
-img {
-    text-decoration: none;
-    width: 55px;
-}
-
-.socialmedia a {
-    text-decoration: none;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
 
 h1 {
@@ -80,6 +52,36 @@ h2 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     opacity: 0.7;
+    text-align: center;
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+    font-family: var(--body-font);
+    color: var(--primary-color);
+}
+
+.socialmedia img {
+    text-decoration: none;
+    width: 55px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 section p,
@@ -106,4 +108,11 @@ footer p {
     width: 150px;
     height: auto;
     padding: 2.5px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    padding: 5px;
 }
