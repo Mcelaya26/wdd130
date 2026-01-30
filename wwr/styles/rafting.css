@@ -41,9 +41,8 @@ h2 {
 /* HEADER ELEMENTS */
 header {
     display: grid;
-    grid-column: 2;
+    grid-template-columns: 20% 1fr;
 }
-
 header img {
     grid-column: 1/2;
     justify-self: center;
@@ -104,7 +103,29 @@ footer p {
     padding: 8px;
 }
 
-/* SECTION ELEMENTS */
+
+
+/* SECTION FIGURE ELEMENTS */
+section h2{
+    grid-row: 1/2;
+    grid-column: 2;
+
+}
+section p,
+section img
+{
+    grid-row: 2/3;
+        justify-self: center;
+    align-self: center;
+}
+
+
+section img{
+    grid-column: 2/3;
+    width: 250px;
+    height: 90%;
+}
+
 figure img{
     width: 150px;
     height: auto;
@@ -114,6 +135,8 @@ figcaption{
     padding-left: 5px;
     text-align: center;
 }
+
+
 
 /* CLASS SELECTORS */
 
@@ -161,4 +184,11 @@ figcaption{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
 }
