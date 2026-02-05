@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table HTML</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<header>
+    <h1>HTML and CSS Form Activity - User Poll</h1>
+</header>
+<body>
+    <main>
+        <!-- Learning forms notes below -->
+        <!-- <form>
+            <label for="texthere">TEXT HERE</label>
+            <input type="text" id="texthere" name="texthere">
+            
+            <label for="email">EMAIL HERE</label>
+            <input type="email" id="email" name="email">
+
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password">
+
+            <label for="message">MESSAGE</label>
+            <input type="message" id="message" name="message">
+
+            <label><input type="checkbox" id="newsletter" name="newsletter"> Send Me Updates</label>
+
+            <label for="attributes">INPUT attributes</label>
+            <input type="tel" id="phone" name="phone" placeholder="132-132-4578" required>
+
+            <button type="submit">SUBMIT</button>
+
+        </form> -->
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="useremail" name="useremail" required></fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+            
+            <label for="browser">What is your favorite browser?</label>
+            <select name="browser" id="browser">
+                <option value="Firefox">Firefox</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Edge">Edge</option>
+                <option value="Safari">Safari</option>
+                <option value="Brave">Brave</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="pet">Do you have a household pet?<input type="checkbox" id="pet" name="pet"></label>
+            
+            <label for="feedback">List the places you have lived.</label>
+            <textarea id="feedback" name="feedback"  rows="4" placeholder="Providence Utah, Bute Mississippi, Chelan Washington, New York New York"></textarea>
+            </fieldset>
+
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+
+
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p> &copy; 2026 | HTML Form - User Poll Activity | Michael Celaya </p>
+</footer>
