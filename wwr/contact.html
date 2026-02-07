@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us Page for Wild Current Rafting Co.">
+    <meta name="author" content="Michael Celaya">
+    <title>Contact Wild Current Rafting Co.</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="White Water Rafting Logo" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="address">
+            <h1>White Water Rafting Company</h1>
+            <address>
+                132 River Street<br>
+                Boise, Idaho<br>
+                +1 (208) 555-3578
+            </address>
+        </div>
+        <section class="contact">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d180.54962003158926!2d-116.2074975398423!3d43.61083228383595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1770417530270!5m2!1sen!2sus"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+
+                <div class="row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith" required>
+                </div>
+
+                <div class="row">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" name="useremail"
+                      placeholder="something@place.com" required>
+                </div>
+
+                <fieldset>
+                    <legend>Message Purpose</legend>
+                    <div class="radios">
+                        <label><input type="radio" id="general"
+                              name="general">General Inquiry</label>
+                        <label><input type="radio" id="question"
+                              name="purpose">Reservation Question</label>
+                        <label><input type="radio" id="suggestion"
+                              name="suggestion">Website Suggestions</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type Here"></textarea>
+                </div>
+
+                <label><input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe me to the monthly newsletter!
+                </label>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="flex-container">
+            <h2> We Are Here to Serve You</h2>
+            <figure>
+                <img src="images/profile/evan-profile.jpg"
+                  alt="Profile image. Man in life vest smiling, standing infront of river. Name plate with Evan Brooks">
+                <figcaption>Operations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile/caleb-profile.jpg"
+                  alt="Profile image. Man in life vest with hat on, standing infront of river. Name plate with Caleb Rivers">
+                <figcaption>Owner/Founder</figcaption>
+            </figure>
+            <figure>
+                <img src="images/profile/maya-profile.jpg"
+                  alt="Profile image. Brunette woman in life vest and sunglasses on head, standing infront of river. Name plate with Maya Lopez">
+                <figcaption>Safety Director</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2026 | Wild Current Rafting Co. | Michael Celaya</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-logo.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-logo.svg" alt="Instagram Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-logo.svg" alt="Linkedin Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
