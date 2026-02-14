@@ -284,7 +284,6 @@ figcaption {
     padding: 1rem;
 }
 
-
 /* HOME: Newsletter */
 .newsletter {
     margin: 10px;
@@ -354,4 +353,8 @@ figcaption {
 
 .trips-table thead th {
     background: #f7f7f7;
+}
+
+.featured-trips .trip-card {
+    max-width: 350px;
 }
