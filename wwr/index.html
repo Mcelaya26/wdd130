@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="Wild Current Rafting Co. Home page. Beginner-friendly, safety-first whitewater adventures. Newsletter signup and featured trips." />
+    <meta name="author" content="Michael Celaya" />
+    <title>Wild Current Rafting Co. | Home</title>
+    <link rel="stylesheet" href="styles/rafting.css" />
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Wild Current Rafting Co. Logo" width="100" />
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <div class="hero">
+            <!-- Reuse an existing wide image, or add a new one like images/home-hero.jpg -->
+            <img src="images/background.jpg"
+              alt="Rafting group navigating a river rapid with forested banks." />
+            <h1>Wild Current Rafting Co.</h1>
+
+            <article>
+                <!-- Reuse an existing image if you want -->
+                <img src="images/post-rafting.jpg"
+                  alt="Smiling guides and guests after a rafting trip, holding paddles." />
+                <p>
+                    Safe, empowering, and unforgettable river experiences for beginners, families,
+                    and teams.
+                    Learn the river—don’t just survive it.
+                </p>
+                <p>
+                    <a href="trips.html">Explore Trips</a>
+                </p>
+            </article>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
+            <h2>Get River Updates</h2>
+            <p>Trip openings, seasonal tips, and water highlights—sent once a month.</p>
+
+            <form class="newsletter-form">
+                <div class="row">
+                    <label for="nl-name">Name</label>
+                    <input type="text" id="nl-name" name="nl-name" placeholder="John Smith"
+                      required />
+                </div>
+
+                <div class="row">
+                    <label for="nl-email">Email</label>
+                    <input type="email" id="nl-email" name="nl-email" placeholder="you@example.com"
+                      required />
+                </div>
+
+                <button type="submit">Sign Me Up</button>
+            </form>
+        </section>
+
+        <!-- PURPOSE / OFFERINGS (Grid) -->
+        <section class="grid-container">
+            <h2>Move With the Current</h2>
+
+            <p>
+                <strong>Built for First-Timers:</strong> Our guides teach paddle technique, river
+                signals, and
+                confidence so you enjoy the adventure from the first splash.
+            </p>
+
+            <!-- Use an existing river image, or add a new one like images/guide-coaching.jpg -->
+            <img src="images/rivers/payette-river.jpg"
+              alt="Rafting group navigating exciting rapids on a river." />
+
+            <p>
+                <strong>Safety is the Adventure:</strong> We run structured safety talks, calm
+                command
+                systems, and trip pacing that keeps the experience fun, focused, and
+                family-friendly.
+            </p>
+        </section>
+
+        <!-- FEATURED TRIPS -->
+        <section class="flex-container featured-trips">
+            <h2>Featured Trips</h2>
+
+            <figure>
+                <img src="images/rivers/payette-river.jpg"
+                  alt="Payette River rapids with a rafting group." />
+                <figcaption><strong>Payette River: Splash &amp; Laugh (Half-Day)</strong>
+                </figcaption>
+                <p>High-energy rapids and big smiles—perfect for first-timers and families.</p>
+                <p><a href="trips.html">View Trip Details</a></p>
+            </figure>
+
+            <figure>
+                <img src="images/rivers/snake-river.jpg"
+                  alt="Snake River rafting through a rocky canyon." />
+                <figcaption><strong>Snake River: Canyon Classic (Full Day)</strong></figcaption>
+                <p>A balanced trip: exciting sections + scenery you’ll want photos of.</p>
+                <p><a href="trips.html">View Trip Details</a></p>
+            </figure>
+
+            <figure>
+                <img src="images/rivers/rogue-river.jpg"
+                  alt="Rogue River rafting with tree-lined shoreline." />
+                <figcaption><strong>Rogue River: Wilderness Run (2 Days)</strong></figcaption>
+                <p>More river time, deeper connection—an unforgettable overnight getaway.</p>
+                <p><a href="trips.html">View Trip Details</a></p>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 | Wild Current Rafting Co. | Michael Celaya</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook-logo.svg"
+                  alt="Facebook Icon" /></a>
+            <a href="https://instagram.com"><img src="images/instagram-logo.svg"
+                  alt="Instagram Icon" /></a>
+            <a href="https://linkedin.com"><img src="images/linkedin-logo.svg"
+                  alt="Linkedin Icon" /></a>
+        </nav>
+    </footer>
+</body>
+
+</html>
